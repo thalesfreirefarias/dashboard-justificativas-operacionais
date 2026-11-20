@@ -1,53 +1,52 @@
+# Operational Justifications Dashboard
 
-# 📊 Consulta de Pendências Operacionais
+**Google Apps Script | Google Sheets | JavaScript | Process Automation**
 
-Aplicação web desenvolvida para consultar pendências de justificativas operacionais e facilitar a comunicação com os responsáveis.
+I developed this web application to make it easier to track operational justifications recorded in spreadsheets.
 
-## 🎯 Sobre o projeto
+The idea was to simplify a repetitive process: finding pending records, checking missing information, and preparing follow-up messages for the people responsible.
 
-O projeto foi desenvolvido para simplificar uma rotina de acompanhamento de justificativas registradas em planilhas.
+## What the Application Does
 
-A interface reúne filtros por turno e data, indicadores de pendências e uma área para geração de mensagens padronizadas.
+- Filters operational records by shift and date.
+- Identifies pending justifications and missing information.
+- Displays records that still require follow-up.
+- Allows users to select a specific occurrence.
+- Generates a standardized message requesting the missing justification.
 
-## ⚙️ Funcionalidades
+The application combines a simple web interface with spreadsheet-based data management.
 
-- Consulta de registros por **turno** e **data**.
-- Resumo de **pendências**, **campos em branco** e **registros não justificados**.
-- Visualização das pendências encontradas.
-- Seleção de uma ocorrência para preparar uma **mensagem automática** de solicitação de justificativa.
+## Technologies
 
-## 🛠️ Tecnologias utilizadas
+- **Google Apps Script:** Automation and spreadsheet integration.
+- **Google Sheets:** Data organization and consultation.
+- **JavaScript:** Application logic and interactions.
+- **HTML & CSS:** Web interface and styling.
 
-- **Google Apps Script:** automação e integração com planilhas.
-- **Google Sheets:** organização e consulta dos dados.
-- **HTML:** estrutura da interface.
-- **CSS:** estilização da aplicação.
-- **JavaScript:** interatividade e funcionalidades.
+## Application Preview
 
-## 🖥️ Interface da aplicação
+![Operational Justifications Dashboard](dashboard.png)
 
-![Tela da aplicação de consulta de pendências](dashboard.png)
+*Illustrative interface. No real operational records or personal information are displayed.*
 
-*Imagem ilustrativa da interface, sem dados operacionais ou informações pessoais.*
+## Why I Built It
 
-## 💡 Objetivo e aprendizado
+The main challenge was making a spreadsheet-based process easier to manage.
 
-O projeto demonstra como a automação e a organização de dados podem contribuir para:
+Instead of manually searching through records and writing similar messages repeatedly, the application brings the information together and helps prepare consistent follow-up requests.
 
-- Reduzir consultas manuais em planilhas.
-- Identificar pendências operacionais.
-- Padronizar a comunicação entre equipes.
-- Facilitar o acompanhamento de justificativas.
-- Apoiar a melhoria contínua de processos.
+This project gave me practical experience with workflow automation, data filtering, and interface development.
 
-## 🔒 Privacidade
+## Privacy and Confidentiality
 
-Este repositório apresenta exclusivamente a interface e a proposta do projeto.
+This repository presents the project's concept and an illustrative interface.
 
-Não contém código-fonte, planilhas internas, identificadores de sistemas ou informações confidenciais.
+The source code, internal spreadsheets, system identifiers, and confidential operational information are not included.
 
-A imagem apresentada não inclui registros operacionais reais.
+## Author
 
----
+**Thales Farias**
 
-**Projeto de portfólio | Análise de Dados • Automação de Processos • Desenvolvimento Web**
+Data Analytics | Process Automation | Business Intelligence
+
+[GitHub](https://github.com/thalesfreirefarias)
